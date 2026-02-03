@@ -1,0 +1,54 @@
+/* ===== NAVBAR ===== */
+.sc-navbar{
+    background:linear-gradient(135deg,#43B6C0 0%, #003099 100%);
+    box-shadow:0 4px 12px rgba(0,0,0,.15);
+}
+
+.sc-navbar .navbar-brand img{
+    height:55px;
+}
+
+.sc-navbar .navbar-brand span{
+    font-family:'Poppins', sans-serif;
+    font-size:18px;
+}
+
+/* LINK */
+.sc-navbar .nav-link{
+    color:#eaeaea;
+    font-weight:500;
+    padding:8px 16px;
+    border-radius:20px;
+    transition:.3s;
+}
+
+/* HOVER */
+.sc-navbar .nav-link:hover{
+    background:rgba(255,255,255,.15);
+    color:#fff;
+}
+
+/* ACTIVE */
+.sc-navbar .nav-link.active{
+    background:#ffffff;
+    color:#003099 !important;
+    font-weight:600;
+}
+
+/* LOGOUT */
+.sc-navbar .logout-btn{
+    font-size:20px;
+    padding:8px 14px;
+}
+
+.sc-navbar .logout-btn:hover{
+    background:#ff4d4f;
+    color:#fff;
+}
+
+/* MOBILE */
+@media (max-width:991px){
+    .sc-navbar .nav-link{
+        margin-top:6px;
+    }
+}

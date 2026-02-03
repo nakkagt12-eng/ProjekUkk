@@ -1,0 +1,34 @@
+/* ===== NAVBAR ===== */
+.navbar {
+    background: linear-gradient(90deg,#43B6C0,#003099);
+}
+
+.navbar .nav-link {
+    font-size: 14px;
+    margin-left: 8px;
+    color: #fff !important;
+    opacity: 0.9;
+    transition: all 0.2s ease;
+}
+
+.navbar .nav-link:hover {
+    opacity: 1;
+    text-decoration: underline;
+}
+
+.navbar .nav-link.active {
+    opacity: 1;
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+.navbar-brand span {
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 0.3px;
+}
+
+.navbar .btn {
+    font-size: 13px;
+    font-weight: 500;
+}
